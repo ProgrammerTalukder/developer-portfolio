@@ -1,5 +1,6 @@
 body{
     margin:0px;
+    font-family:'Poppins', sans-serif;
 }
 h1{
     font-family:'Poppins' , sans-serif;
@@ -8,8 +9,14 @@ h1{
 .orange-color {
     color: orange;
 }
-section{
+.flexible{
     display:flex;
+}
+.experience{
+    background-image: url(exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    margin-bottom: 200px;
 }
 .half-width{
     width:50%;
@@ -17,8 +24,25 @@ section{
     padding-top: 5%;
     margin-bottom: 231px;
 }
+.width{
+    width:40%;
+    margin-left: 50px;
+    padding-left: 10px;
+    box-shadow: 10px 10px 50px gray;
+    border-radius:10px;
+    border-left: 10px solid;
+    border-image: linear-gradient(orange, tomato);
+    border-image-slice: 1;
+
+}
 .half-width img{
     width:80%;
+}
+.width2{
+    margin-left:10%;
+    border-left: 10px solid;
+    border-image: linear-gradient(blue, purple);
+    border-image-slice: 1;
 }
 .hire{
     text-decoration: none;
@@ -26,7 +50,7 @@ section{
     border-radius:7px;
     background-image: linear-gradient(orange, tomato);
     color:white;
-    font: weight 700px;
+    font-weight: 700px;
 
 }
 .top-banner{
@@ -44,4 +68,10 @@ section{
 }
 #pra p{
     padding-bottom: 5px;
+}
+.we{
+    font-weight: 500px;
+}
+footer p{
+    text-align:center;
 }
