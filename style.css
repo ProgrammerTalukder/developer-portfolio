@@ -15,6 +15,7 @@ section{
     width:50%;
     padding-left:10%;
     padding-top: 5%;
+    margin-bottom: 231px;
 }
 .half-width img{
     width:80%;
@@ -31,4 +32,16 @@ section{
 .top-banner{
     background-image: url(top-banner.png);
     background-repeat: no-repeat;
+}
+.dreambig{
+    background-image: url(dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    height:auto;
+}
+#pra{
+    margin-right: 10%;
+}
+#pra p{
+    padding-bottom: 5px;
 }
